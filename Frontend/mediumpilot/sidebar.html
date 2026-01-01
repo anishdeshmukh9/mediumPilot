@@ -1,0 +1,51 @@
+<div id="mec-sidebar">
+  <!-- Header Section -->
+  <div id="mec-header">
+    <div class="mec-header-content">
+      <div id="mec-icon">M</div>
+      <div class="mec-title-section">
+        <h1 class="mec-title">MediumPilot</h1>
+        <p class="mec-subtitle">AI Reading Companion</p>
+      </div>
+      <div id="mec-status">Indexing...</div>
+    </div>
+  </div>
+
+  <!-- Mode Switch -->
+  <div id="mec-mode-switch">
+    <button id="btn-doc" class="active">
+      <span>📄</span> Ask Document
+    </button>
+    <button id="btn-sel">
+      <span>✨</span> Ask Selected
+    </button>
+  </div>
+
+  <!-- Selected Text Display -->
+  <div id="mec-selected-box" class="hidden">
+    <div class="selected-label">Selected Text</div>
+    <div id="selected-content"></div>
+  </div>
+
+  <!-- Chat Window -->
+  <div id="mec-chat-window">
+    <!-- Empty state will be shown initially -->
+    <div class="empty-state">
+      <div class="empty-state-icon">💬</div>
+      <div class="empty-state-title">Start a conversation</div>
+      <div class="empty-state-text">
+        Ask questions about this article or select text to get contextual answers
+      </div>
+    </div>
+  </div>
+
+  <!-- Input Area -->
+  <div id="mec-input-area">
+    <textarea 
+      id="mec-input" 
+      placeholder="Ask anything about this article..."
+      rows="1"
+    ></textarea>
+    <button id="mec-send" aria-label="Send message"></button>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "mediumPilot",
+  "description": "medium artical AI bot.",
+  "version": "3.0",
+  "manifest_version": 3,
+
+  "permissions": ["scripting", "tabs", "storage", "activeTab"],
+
+  "host_permissions": ["*://*.medium.com/*", "http://127.0.0.1/*", "https://your-backend-url/*"],
+
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.medium.com/*"],
+      "js": ["contentScript.js"],
+      "css": ["sidebar.css"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["sidebar.html", "sidebar.css", "sidebar.js", "icons/*"],
+      "matches": ["*://*.medium.com/*"]
+    }
+  ]
+}
