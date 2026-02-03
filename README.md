@@ -16,7 +16,7 @@
 
 <div align="center">
 
-[![MediumPilot Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![MediumPilot Demo](https://img.youtube.com/vi/RnHJ8Q-7xgI/maxresdefault.jpg)](https://www.youtube.com/watch?v=RnHJ8Q-7xgI)
 
 **Click above to watch the demo video**
 
@@ -373,7 +373,7 @@ Want to help make MediumPilot better?
 **Created by Anish Deshmukh**
 
 - GitHub: [@anishdeshmukhO9](https://github.com/anishdeshmukhO9)
-- Email: your.email@example.com
+- Email: anishdeshmukh9@gmail.com
 
 ---
 
